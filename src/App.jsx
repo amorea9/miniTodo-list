@@ -6,11 +6,11 @@ import List from "./components/List";
 function App() {
   const [tasks, setTasks] = useState([
     {
-      name: "Clean dishes",
+      name: "Buy tomatoes",
       id: 1,
     },
-    { name: "Feed mukka", id: 2 },
-    { name: "Feed myself", id: 3 },
+    { name: "Feed the rabbit", id: 2 },
+    { name: "Clean up", id: 3 },
     { name: "Go out", id: 4 },
   ]);
 
